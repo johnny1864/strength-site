@@ -1,0 +1,120 @@
+// colors
+$blue:          #004FE5;
+$orange:        #FEC02E;
+
+$white:         #FFFFFF;
+$off-white:     #FBFBFB;
+$black:         #000000;
+$off-black:     #232323;
+$satin-black:   #1E1E1E;
+
+
+// THEME
+$primary:       $blue;
+$secondary:     $orange;
+$text-dark:     $satin-black;
+
+
+// FONTS / TYPOGRAPHY
+// google font imported from /inc/theme-init.php enqueue statement
+// family=Inter:wght@400;500;600;700
+// font-family: 'Inter', sans-serif;
+
+$font-family-sans-serif:    'Inter', sans-serif;
+
+// base font setup
+$font-size-root:            16px;
+$font-size-base:            1rem;
+$font-family-base:          $font-family-sans-serif;
+$line-height-base:          1.875;
+$body-color:                $text-dark;
+$paragraph-margin-bottom:   1.25rem;
+
+// headings
+// $headings-font-family:      $font-family-base;
+$headings-line-height:      1.1;
+$headings-font-weight:      700;
+$headings-margin-bottom:    1.25rem; // 20px
+
+
+$h1-font-size: 5rem;        // 80px
+$h2-font-size: 2.5rem;      // 40px
+$h3-font-size: 2.25rem;     // 36px
+$h4-font-size: 1.875rem;    // 30px
+$h5-font-size: 1.5625rem;   // 25px
+$h6-font-size: 1.25rem;     // 20px
+
+// lead
+$lead-font-size:    1.3125rem; // 21px
+$lead-font-weight:  400;
+
+// small
+$small-font-size:   .875rem; // 14px
+
+// links
+$link-color:        $primary;
+$link-decoration:   none;
+// $link-hover-color:  $secondary;
+
+// btns
+// $input-btn-font-family: $font-family-base;
+$input-btn-font-size:   1.25rem;
+$input-btn-line-height: 1;
+$input-btn-padding-y:   1rem;       // 16px
+$input-btn-padding-x:   1.125rem;  // 23px
+$btn-white-space:       nowrap;
+$btn-font-weight:       600;
+$btn-border-width:      1px;
+$btn-border-radius:     5px;
+$btn-border-radius-sm:  0;
+$btn-border-radius-lg:  0;
+
+$input-btn-focus-width:         1px;
+$input-btn-focus-color-opacity: .25;
+
+
+// SIZING & SPACING
+$mobile-breakpoint: 'md';
+$screen-tiny:       420px;
+
+
+// sections split spacer distance between above and below
+$section-spacer:        60px;
+$section-spacer-mobile: 30px;
+
+
+// REFERENCE GRID BREAKPOINTS -
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  huge: 1800px
+);
+
+// REFERENCE MAX WIDTHS
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px,
+//   xxl: 1320px
+// );
+
+// REFERENCE IMAGE SIZES
+// thumbnail - 360
+// small - 540
+// medium - 720
+// medium_large - 768
+// large - 960
+// xlg - 1140
+// xxl - 1320
+// 1536x1536 - 1536
+// 2048x2048 - 2048
+// full - 2560
+
+
+// disable lazy load class
+// hrl-no-lazy-load

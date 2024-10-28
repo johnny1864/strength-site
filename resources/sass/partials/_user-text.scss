@@ -1,0 +1,61 @@
+// DEFAULT USER GENERATED TEXT (CMS WYSIWYG CONTENT EDITOR)
+.user-text {
+
+    h1, h2, h3, h4, h5, h6 {
+
+        &:not(:first-child) {
+            margin-top: 28px;
+        }
+    }
+
+    h1, h2, h3 {
+        margin-bottom: 36px;
+    }
+
+
+
+    ul, ol {
+        font-size: .875rem;
+
+        li {
+            line-height: 1.2;
+
+            &:not(:first-child) {
+                margin-top: 8px;
+            }
+        }
+    }
+
+
+    // IMAGE ALIGNMENT FIXES
+    img, .wp-caption {
+        &.aligncenter {
+            margin: 0 auto;
+            display: block;
+            padding-bottom: 10px;
+        }
+
+        &.alignleft {
+            float: left;
+            padding-right: 30px;
+            padding-bottom: 10px;
+            box-sizing: content-box;
+        }
+
+        &.alignright {
+            float: right;
+            padding-left: 30px;
+            padding-bottom: 10px;
+            box-sizing: content-box;
+        }
+
+        &.alignnone {
+            display: block;
+            padding-bottom: 10px;
+        }
+    }
+
+    *:last-child {
+        margin-bottom: 0;
+    }
+}

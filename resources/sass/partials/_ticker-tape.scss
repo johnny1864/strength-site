@@ -1,0 +1,55 @@
+// TICKER TAPE MESSAGING
+.ticker-wrapper {
+    position: relative;
+    z-index: 9;
+
+    #hrl-ticker-tape {
+        background-color: $primary;
+        color: $white;
+        overflow: hidden;
+        display: flex;
+        width: 100vw;
+        padding: .84375rem 0;
+
+        .ticker-list {
+            display: flex;
+            will-change: contents;
+            animation: ticker 120s infinite linear;
+
+            &:first-child {
+
+            }
+        }
+
+        &:hover {
+            .ticker-list {
+                // animation-play-state: paused;
+            }
+        }
+
+        .ticker-item {
+            margin-right: 20px;
+            white-space: nowrap;
+
+            p {
+                font-size: .8125rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: .26px;
+                line-height: 1;
+
+                &:after {
+                    content: '\2022';
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
+
+@keyframes ticker {
+    100% {
+        will-change: contents;
+        transform: translateX(-100%); /*try changing this to -100vw*/
+    }
+}

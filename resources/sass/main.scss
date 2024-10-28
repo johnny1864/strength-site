@@ -1,0 +1,121 @@
+// Custom font face
+// @import "partials/dev-fonts";
+
+// Setup Bootstrap 5 - Include parts of Bootstrap
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+@import "partials/dev-variables";
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+
+// 4. Include any default map overrides here
+// @import "partials/dev-maps";
+
+// 5. Include remainder of required parts
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+
+// 6. Optionally include any other parts as needed
+
+// recommended -
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/helpers";
+
+// optional if using -
+// @import "bootstrap/scss/tables";
+// @import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+// @import "bootstrap/scss/dropdown";
+// @import "bootstrap/scss/button-group";
+// @import "bootstrap/scss/nav";
+// @import "bootstrap/scss/navbar";
+// @import "bootstrap/scss/card";
+@import "bootstrap/scss/accordion";
+// @import "bootstrap/scss/breadcrumb";
+// @import "bootstrap/scss/pagination";
+// @import "bootstrap/scss/badge";
+// @import "bootstrap/scss/alert";
+// @import "bootstrap/scss/progress";
+// @import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+// @import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal";
+// @import "bootstrap/scss/tooltip";
+// @import "bootstrap/scss/popover";
+// @import "bootstrap/scss/carousel";
+// @import "bootstrap/scss/spinners";
+// @import "bootstrap/scss/offcanvas";
+// @import "bootstrap/scss/placeholders";
+
+
+// Custom utilites
+// @see https://getbootstrap.com/docs/5.2/utilities/api/#add-utilities
+// @import "partials/dev-utilities";
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map
+@import "bootstrap/scss/utilities/api";
+
+// OTHER VENDOR FILES
+// Animate on scroll - replaces css animate & wow.js - https://michalsnik.github.io/aos/
+@import "aos/src/sass/aos";
+
+// Slick Slider
+@import "slick-carousel/slick/slick";
+@import "slick-carousel/slick/slick-theme";
+
+
+// Font Awesome
+@import "@fortawesome/fontawesome-pro/scss/fontawesome";
+@import "@fortawesome/fontawesome-pro/scss/brands";
+// @import "@fortawesome/fontawesome-pro/scss/duotone";
+@import "@fortawesome/fontawesome-pro/scss/light";
+@import "@fortawesome/fontawesome-pro/scss/regular";
+@import "@fortawesome/fontawesome-pro/scss/solid";
+@import "@fortawesome/fontawesome-pro/scss/thin";
+// @import "@fortawesome/fontawesome-pro/scss/v4-shims";
+// @import "@fortawesome/fontawesome-pro/scss/sharp-regular";
+// @import "@fortawesome/fontawesome-pro/scss/sharp-solid";
+
+
+// Hamburgers
+@import "partials/hamburger-settings";
+@import "hamburgers/_sass/hamburgers/hamburgers.scss";
+
+
+// IMPORT CUSTOM STYLES
+@import "partials/general";
+@import "partials/user-text";
+@import "partials/ticker-tape";
+@import "partials/structure-header";
+@import "partials/structure-footer";
+
+// PAGES
+@import "partials/pages/legalPage";
+@import "partials/pages/supportPage";
+@import "partials/pages/useCase";
+@import "partials/pages/submissionPage";
+@import "partials/pages/our-story";
+@import "partials/pages/meal-plans";
+
+
+
+// SHARED BLOCKS
+@import "partials/blocks/hero";
+@import "partials/blocks/copyImageCols";
+@import "partials/blocks/imageCopySlides";
+@import "partials/blocks/testimonialsBlock";
+@import "partials/blocks/finalCTABlock";
+@import "partials/blocks/contactUsBlock";
+@import "partials/blocks/faqBlock";
+@import "partials/blocks/trainingCards";

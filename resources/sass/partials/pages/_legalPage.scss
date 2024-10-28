@@ -1,0 +1,14 @@
+body.page-template-custom-legal-page {
+
+    .hero-spacer{
+        margin-top: 150px;
+
+        @include media-breakpoint-down(sm) {
+            margin-top: 60px;
+        }
+    }
+
+    main {
+        padding-bottom: 60px;
+    }
+}

@@ -1,0 +1,43 @@
+$hamburger-types: (
+    // 3dx,
+    // 3dx-r,
+    // 3dy,
+    // 3dy-r,
+    // 3dxy,
+    // 3dxy-r,
+    // arrow,
+    // arrow-r,
+    // arrowalt,
+    // arrowalt-r,
+    // arrowturn,
+    // arrowturn-r,
+    // boring,
+    // collapse,
+    // collapse-r,
+    // elastic,
+    // elastic-r,
+    // emphatic,
+    // emphatic-r,
+    // minus,
+    // slider,
+    // slider-r,
+    // spring,
+    // spring-r,
+    // stand,
+    // stand-r,
+    // spin,
+    // spin-r,
+    squeeze,
+    // vortex,
+    // vortex-r
+);
+
+$hamburger-padding-x:               5px;
+$hamburger-padding-y:               5px;
+$hamburger-layer-width:             19px;
+$hamburger-layer-height:            1px;
+$hamburger-layer-color:             $white;
+$hamburger-hover-opacity:           1;
+$hamburger-active-hover-opacity:    1;
+$hamburger-layer-border-radius:     0;
+$hamburger-layer-spacing:           6px;
